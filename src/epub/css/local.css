@@ -1,2 +1,116 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+[epub|type~="z3998:dramatis-personae"]{
+	text-align: center;
+}
+
+[epub|type~="z3998:dramatis-personae"] ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+[epub|type~="z3998:dramatis-personae"] ul li{
+	margin: 1em;
+	font-style: italic;
+}
+
+[epub|type~="z3998:drama"]{
+	border-collapse: collapse;
+}
+
+[epub|type~="z3998:drama"] tr:first-child td{
+	padding-top: 0;
+}
+
+[epub|type~="z3998:drama"] tr:last-child td{
+	padding-bottom: 0;
+}
+
+[epub|type~="z3998:drama"] td{
+	vertical-align: top;
+	padding: .5em;
+}
+
+[epub|type~="z3998:drama"] td:last-child{
+	padding-right: 0;
+}
+
+[epub|type~="z3998:drama"] td:first-child{
+	padding-left: 0;
+}
+
+[epub|type~="z3998:drama"] td[epub|type~="z3998:persona"]{
+	hyphens: none;
+	text-align: right;
+	width: 20%;
+}
+
+[epub|type~="z3998:drama"] table{
+	margin: 1em auto;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+[epub|type~="z3998:stage-direction"]{
+	font-style: italic;
+}
+
+[epub|type~="z3998:stage-direction"]::before{
+	content: "(";
+	font-style: normal;
+}
+
+[epub|type~="z3998:stage-direction"]::after{
+	content: ")";
+	font-style: normal;
+}
+
+[epub|type~="z3998:stage-direction"].editorial::before{
+	content: "[";
+}
+
+[epub|type~="z3998:stage-direction"].editorial::after{
+	content: "]";
+}
+
+[epub|type~="z3998:persona"]{
+	font-variant: all-small-caps;
+}
+
+[epub|type~="z3998:verse"] p{
+	text-align: left;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+
+section[epub|type~="z3998:scene"] > p{
+	margin: 1em auto;
+	width: 75%;
+}
+
+p span.i2{
+	text-indent: -1em;
+	padding-left: 3em;
+}
+
+p span.i6{
+	text-indent: -1em;
+	padding-left: 7em;
+}
+
+.signature{
+	margin-top: 1em;
+	font-variant: small-caps;
+	text-align: right;
+}
