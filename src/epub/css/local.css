@@ -98,19 +98,3 @@ section[epub|type~="z3998:scene"] > p{
 	margin: 1em auto;
 	width: 75%;
 }
-
-p span.i2{
-	text-indent: -1em;
-	padding-left: 3em;
-}
-
-p span.i6{
-	text-indent: -1em;
-	padding-left: 7em;
-}
-
-.signature{
-	margin-top: 1em;
-	font-variant: small-caps;
-	text-align: right;
-}
