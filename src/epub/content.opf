@@ -55,6 +55,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1519</dc:source>
 		<dc:source>https://books.google.com/books?id=FJwMAAAAYAAJ</dc:source>
+		<meta property="se:production-notes">The main text was based on the PG version with additional stage directions taken from the 1878 Harper and Brothers edition (marked by square brackets).</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Much_Ado_About_Nothing</meta>
