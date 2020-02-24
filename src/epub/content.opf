@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/william-shakespeare/much-ado-about-nothing</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2020-02-24T19:47:44Z</dc:date>
+		<meta property="dcterms:modified">2020-02-24T19:47:44Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -48,16 +48,16 @@
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">One couple is tricked into falling in love, and another couple is tricked into falling out of love.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Towards the middle of his writing career, William Shakespeare wrote one of his many plays, &lt;i&gt;Much Ado About Nothing&lt;/i&gt;, sometime between 1598 and 1599. This play was first published in quarto in 1600 and later collected into &lt;i&gt;Mr. William Shakespeare’s Comedies, Histories, and Tragedies&lt;/i&gt; in 1623. The earliest recorded performance of &lt;i&gt;Much Ado About Nothing&lt;/i&gt; was performed for the newly married Princess Elizabeth and Frederick the fifth, Elector Palatine in 1613.&lt;/p&gt;
-			&lt;p&gt;William Shakespeare’s sources of inspiration for this play can be found in Italian culture and popular texts published in the sixteenth century. Gossip involving lovers deceived into believing each other false was often spread throughout Northern Italy. Works such as Ludovico Ariosto’s &lt;i&gt;Orlando Furioso&lt;/i&gt; and Edmund Spencer’s &lt;i&gt;Fearie Queene&lt;/i&gt; also feature tricked lovers like Claudio and Hero. Besides these similarities, the idea of tricking a couple like Benedick and Beatrice into &lt;em&gt;falling in love&lt;/em&gt; was an original and unusual idea at the time.&lt;/p&gt;
+			&lt;p&gt;Shakespeare wrote &lt;i&gt;Much Ado About Nothing&lt;/i&gt; towards the middle of his career, sometime between 1598 and 1599. It was first published in quarto in 1600 and later collected into &lt;i&gt;Mr. William Shakespeare’s Comedies, Histories, and Tragedies&lt;/i&gt; in 1623. The earliest recorded performance of &lt;i&gt;Much Ado About Nothing&lt;/i&gt; was performed for the newly-married Princess Elizabeth and Frederick the Fifth, Elector Palatine in 1613.&lt;/p&gt;
+			&lt;p&gt;Shakespeare’s sources of inspiration for this play can be found in Italian culture and popular texts published in the sixteenth century. Gossip involving lovers deceived into believing each other false was often spread throughout Northern Italy. Works like Ludovico Ariosto’s &lt;i&gt;Orlando Furioso&lt;/i&gt; and Edmund Spencer’s &lt;i&gt;Fearie Queene&lt;/i&gt; also feature tricked lovers like Claudio and Hero. Besides these similarities, the idea of tricking a couple like Benedick and Beatrice into &lt;em&gt;falling in love&lt;/em&gt; was an original and unusual idea at the time.&lt;/p&gt;
 			&lt;p&gt;The play focuses on two couples: upon the noblemen’s return to Messina, Claudio and Hero quickly fall in love and wish to marry in a week; on the contrary, Benedick and Beatrice resume their verbal war, exchanging insults with each other. To pass the time prior to the marriage a plot to trick Benedick and Beatrice into falling in love has been set in motion. Unbeknownst to both our couples, a fouler plot to crush the love and happiness between Hero and Claudio has also begun to unfold.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1519</dc:source>
 		<dc:source>https://books.google.com/books?id=FJwMAAAAYAAJ</dc:source>
-		<meta property="se:production-notes">The main text was based on the PG version with additional stage directions taken from the 1878 Harper and Brothers edition (marked by square brackets).</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:production-notes">The main text was based on the PG version with additional stage directions taken from the 1878 Harper and Brothers edition (marked by square brackets and the "editorial" class).</meta>
+		<meta property="se:word-count">22875</meta>
+		<meta property="se:reading-ease.flesch">81.53</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Much_Ado_About_Nothing</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/william-shakespeare_much-ado-about-nothing</meta>
 		<dc:creator id="author">William Shakespeare</dc:creator>
@@ -82,6 +82,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
