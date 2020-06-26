@@ -70,8 +70,8 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Artemisia_Gentileschi</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n87102497</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">PG Shakespeare Team</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">PG Shakespeare Team</meta>
+		<dc:contributor id="transcriber-1">P.G. Shakespeare Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">P.G. Shakespeare Team</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Emma Sweeney</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Sweeney, Emma</meta>
