@@ -68,14 +68,6 @@
 	font-style: normal;
 }
 
-[epub|type~="z3998:stage-direction"].editorial::before{
-	content: "[";
-}
-
-[epub|type~="z3998:stage-direction"].editorial::after{
-	content: "]";
-}
-
 [epub|type~="z3998:persona"]{
 	font-variant: all-small-caps;
 }
