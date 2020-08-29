@@ -55,7 +55,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1519</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/004135080</dc:source>
-		<meta property="se:production-notes">The main text was based on the PG version with additional stage directions taken from the 1887 Victoria edition (marked by square brackets and the "editorial" class).</meta>
+		<meta property="se:production-notes">The main text is based on the PG edition and revised to match the 1887 Victoria edition.</meta>
 		<meta property="se:word-count">22875</meta>
 		<meta property="se:reading-ease.flesch">81.53</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Much_Ado_About_Nothing</meta>
