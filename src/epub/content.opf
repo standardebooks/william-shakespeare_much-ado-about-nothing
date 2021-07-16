@@ -46,6 +46,8 @@
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh2008115842</meta>
 		<meta property="se:subject">Drama</meta>
+		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
 		<dc:description id="description">One couple is tricked into falling in love, and another couple is tricked into falling out of love.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/william-shakespeare"&gt;Shakespeare&lt;/a&gt; wrote &lt;i&gt;Much Ado About Nothing&lt;/i&gt; towards the middle of his career, sometime between 1598 and 1599. It was first published in quarto in 1600 and later collected into &lt;i&gt;&lt;abbr&gt;Mr.&lt;/abbr&gt; William Shakespeare’s Comedies, Histories, and Tragedies&lt;/i&gt; in 1623. The earliest recorded performance of &lt;i&gt;Much Ado About Nothing&lt;/i&gt; was performed for the newly-married Princess Elizabeth and Frederick the Fifth, Elector Palatine in 1613.&lt;/p&gt;
